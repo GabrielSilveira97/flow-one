@@ -1,3 +1,4 @@
+import FooterComponent from "./components/layout/Footer"
 import HeroSection from "./components/layout/Hero"
 import MidSection from "./components/layout/Mid"
 import NavbarComponent from "./components/layout/Navbar"
@@ -16,6 +17,7 @@ const App = () => {
         <ValueSection/>
         <MidSection/>
         <TestimonialsSection/>
+        <FooterComponent/>
       </main>
       <SidebarComponent/>
     </SidebarProvider>
