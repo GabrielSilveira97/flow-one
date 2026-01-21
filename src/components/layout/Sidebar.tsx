@@ -4,14 +4,14 @@ const SidebarComponent = () => {
     return(
         <Sidebar side="right">
             <SidebarHeader className="flex justify-center items-center py-8">
-                <h1>Sidebar Title</h1>
+                <img src="/logos/logo.png" alt="flowone logo" className="w-28 md:w-50" />
             </SidebarHeader>
             <SidebarContent className="px-5">
                 <SidebarGroup>  
-                    <ul className="flex flex-col gap-3">
-                        <li>Por que Flowone</li>
-                        <li>Planos</li>
-                        <li>Empresarial</li>
+                    <ul className="flex flex-col gap-2">
+                        <li><Button variant="link" className="py-5 transition-all text-md">Por que FlowOne</Button></li>
+                        <li><Button variant="link" className="py-5 transition-all text-md">Planos</Button></li>
+                        <li><Button variant="link" className="py-5 transition-all text-md">Empresarial</Button></li>
                     </ul>
                 </SidebarGroup>
                 <SidebarGroup>
